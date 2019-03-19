@@ -1,4 +1,4 @@
-# include "counter.h"
+#include "counter.h"
 
 void Reset(void){
 while ((GPIO_PORTF_DATA_R &=0x11)==0x10)  
